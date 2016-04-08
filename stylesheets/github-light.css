@@ -1,16 +1,17 @@
 .left-pane {
   background: white;
-  height: 800px;
+  height: 100vh;
+  overflow-y : scroll:
 }
 
 .main-pane {
   background: blue;
-  height: 800px;
+  height: 100vh;
+  
 }
 
 .stick-to-bottom {
-  position : relative;
-  padding-top : 300px;
-  margin-bottom: 300px;
+  position : absolute;
+  bottom : 0;
   color : white;
 }
