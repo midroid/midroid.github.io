@@ -1,17 +1,20 @@
 .left-pane {
   background: white;
   height: 100vh;
-  overflow-y : scroll:
+  overflow-y : auto;
 }
 
 .main-pane {
   background: blue;
   height: 100vh;
-  
+  overflow :auto;
 }
 
 .stick-to-bottom {
   position : absolute;
   bottom : 0;
   color : white;
+}
+body {
+  overflow : hidden;
 }
