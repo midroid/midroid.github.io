@@ -5,7 +5,7 @@
 }
 
 .main-pane {
-  background: blue;
+  background: white;
   height: 100vh;
   overflow :auto;
 }
@@ -17,4 +17,8 @@
 }
 body {
   overflow : hidden;
+}
+.main-pane-bg-img {
+  height : 100%;
+  width : 100%;
 }
